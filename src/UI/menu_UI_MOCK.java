@@ -1,10 +1,14 @@
 package UI;
 
-public class menu_UI_MOCK {
+import PharmacyJDBC.JDBCManager;
 
+public class menu_UI_MOCK {
+	
+	private static JDBCManager jdbcmanager;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Hello world 2");
+		jdbcmanager = new JDBCManager();
+		jdbcmanager.closeConnection();
 	}
 
 }
