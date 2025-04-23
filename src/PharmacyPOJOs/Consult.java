@@ -4,14 +4,10 @@ import java.io.Serializable;
 import java.sql.Date;
 import java.util.Objects;
 
-/*TODO:resolver lo de date
- *  
- */
+
 public class Consult implements Serializable{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 8574852082839862455L;
 
 	private Integer id;

@@ -3,15 +3,11 @@ package PharmacyPOJOs;
 import java.io.Serializable;
 import java.sql.Date;
 import java.util.Objects;
-/*TODO:resolver lo de date
- *  
- */
+
 
 public class Prescription implements Serializable{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -4458377507371493828L;
 	
 	private Integer id;

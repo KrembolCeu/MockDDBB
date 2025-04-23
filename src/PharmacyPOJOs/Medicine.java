@@ -5,9 +5,7 @@ import java.util.Objects;
 
 public class Medicine implements Serializable{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -8846301878551480254L;
 	
 	private Integer id;

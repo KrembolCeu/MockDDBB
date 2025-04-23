@@ -5,9 +5,7 @@ import java.util.Objects;
 
 public class Pharmacist implements Serializable{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -3421762158473307461L;
 	
 	private Integer id;

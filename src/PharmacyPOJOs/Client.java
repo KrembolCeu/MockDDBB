@@ -4,9 +4,7 @@ import java.util.Objects;
 
 public class Client implements Serializable{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 6510590609092054025L;
 	
 	private Integer Id;
